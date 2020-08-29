@@ -1,5 +1,26 @@
 # Ch55xduino: Small Devices Arduino for ch55x devices
 
+## Arduino core for the CH55x Family
+
+This project brings support for the CH55X chip to the Arduino environment. It lets you write sketches, using familiar Arduino functions and libraries, and run them directly on CH55X, with no external microcontroller required.
+
+Based in the work of [CH55xduino](https://github.com/DeqingSun/ch55xduino)
+
+## Contents
+- [Installation Instructions](#installation-instructions)
+
+
+### Installation Instructions
+- Using Arduino IDE Boards Manager (preferred)
+  + [Instructions for Boards Manager](docs/arduino-ide/boards_manager.md)
+- Using Arduino IDE with the development repository
+  + [Instructions for Windows](docs/arduino-ide/windows.md)
+  + [Instructions for Mac](docs/arduino-ide/mac.md)
+  + [Instructions for Debian/Ubuntu Linux](docs/arduino-ide/debian_ubuntu.md)
+  + [Instructions for Fedora](docs/arduino-ide/fedora.md)
+  + [Instructions for openSUSE](docs/arduino-ide/opensuse.md)
+  
+
 **Getting started on the Ch55x the easy way. Forked from Sduino project, also based on 
 ch554_sdcc project**
 
@@ -169,3 +190,11 @@ most versions >=1.6.6 should work.
 * Windows: Tested on Windows 7 and XP.
 
 * MacOS: tested on 10.14.
+
+### Maintainer
+
+Electronic Cats invests time and resources providing this open source design, please support Electronic Cats and open-source hardware by purchasing products from Electronic Cats!
+
+## License
+
+GNU Lesser General Public License v2.1
