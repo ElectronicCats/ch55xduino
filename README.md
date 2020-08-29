@@ -74,16 +74,6 @@ If you want to leave the bootloader, you may send the following bytes at 57600 b
 
 You can use USB Serial (CDC) driver for default CDC USB stack. If you tried to emulate another type of USB device without changing the PID/VID, you may need to uninstall the device before installing a new driver.
 
-## Reference board
-
-![Front image](https://raw.githubusercontent.com/DeqingSun/ch55xduino/ch55xduino/docs/simpleCH552Front.jpg)
-
-![Back image](https://raw.githubusercontent.com/DeqingSun/ch55xduino/ch55xduino/docs/simpleCH552Back.jpg)
-
-There is a small CH552 breakout board design in the "pcb" folder. When fabricated with 1.6mm board thickness, some USB receptacle may be too loose for the PCB. Just add some tape behind the USB connector to increase the thickness.
-
-The button footprint was designed for 6mm buttons, but 5mm one works too.
-
 ## Difference to regular Arduino
 
 ### Pin names:
